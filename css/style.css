@@ -1,13 +1,13 @@
 
 
-/* The magic */
+
 .col {
     overflow: hidden;
     position: relative;
     
   }
   
-  /* sliding functionality controller */
+ 
   .slide-text {
     position: absolute;
     top: 0;
@@ -43,7 +43,7 @@
   }
   /* typo ends */
   
-  /* Pen styling/ replace the * with .grid if needed */
+  
   .grid {
     box-sizing: border-box;
   }
