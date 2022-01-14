@@ -259,9 +259,9 @@ margin-top: 20px;
       <div class="header">
         <h2 style="font-family: lucida sans;">Log In</h2>
       </div>
-   <form  action="index.html" class="form" id="form">
+   <form  action="index.html" class="form" id="form" >
      <div class="form-control ">
-       <label >Email Address</label>
+       <label >E-mail Address</label>
        <input type="email" placeholder="Email adress" class="w-100" id="email" >
        <i class="fa fa-check-circle"> </i>
        <i class="fa fa-exclamation-circle"></i>
@@ -341,6 +341,7 @@ function checkInputs(){
     setErrorFor(password,'Password should atleast have an upper & lower case, special charachters & a number');
   }else{
     setSucessFor(password);
+	   window.location.replace('index.html')
   }
 
   
